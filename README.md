@@ -1,6 +1,9 @@
 
 # Mitigating Neural Network Overconfidence with Logit Normalization
 
+ICML 2022: This repository is the official implementation of LogitNorm.
+
+
 
 ## Requirements
 
@@ -38,4 +41,14 @@ python test.py cifar10 --method_name cifar10_wrn_logitnorm_standard --num_to_avg
 
 ```
 
+## Citation
+
+If you find this useful in your research, please consider citing:
+
+    @article{wei2022logitnorm,
+    title={Mitigating Neural Network Overconfidence with Logit Normalization},
+    author={Wei, Hongxin and Xie, Renchunzi and Cheng, Hao and Feng, Lei and An, Bo and Li, Yixuan},
+    booktitle={International Conference on Machine Learning (ICML)},
+    year={2022}
+    }
 
