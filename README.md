@@ -41,6 +41,14 @@ python test.py cifar10 --method_name cifar10_wrn_logitnorm_standard --num_to_avg
 
 ```
 
+## What's More?
+Below are my other research works related to this topic:
+
+1. Using OOD examples to improve robustness against inherent noisy labels: [NeurIPS 2021](https://arxiv.org/pdf/2106.10891.pdf) | [Code](https://github.com/hongxin001/ODNL)
+2. Can we use OOD examples to rebalance long-tailed dataset? [ICML 22](https://arxiv.org/pdf/2206.08802.pdf) | [Code](https://github.com/hongxin001/open-sampling)
+
+
+
 ## Citation
 
 If you find this useful in your research, please consider citing:
